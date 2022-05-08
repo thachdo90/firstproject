@@ -1,0 +1,187 @@
+html {
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  background-color: black;
+  opacity: 0.9;
+  color: seashell;
+}
+
+.content {
+  align-items: center;
+}
+
+/* header, nav bar */
+header {
+  display: flex;
+  position: fixed;
+  height: 69px;
+  background-color: black;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  overflow: hidden;
+  border-bottom: 1px solid seashell;
+}
+
+header img{
+  height: 50px;
+  margin-left: 10px;
+}
+
+header .content {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+}
+
+nav{
+  padding-right: 5px;
+}
+
+nav li {
+  padding-left: 1.5rem;
+  list-style: none;
+}
+
+header nav a{
+  color: seashell;
+
+}
+
+/* main content */
+.main-content {
+  margin-top: 69px;
+  position: relative;
+}
+
+/* banner */
+
+.banner {
+  background: rgba(0,0,0,0.5) url("../images/background.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.banner .content {
+  background-color: black;
+  display: block;
+  line-height: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.banner .content h4{
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+/* tea of the month */
+
+.teas {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+
+}
+
+.teas .content{
+  display: flex;
+  flex-direction: column;
+  line-height: 0px;
+  margin-top: 40px;
+}
+
+.images-container {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-container {
+  width: 300px;
+  height: 250px;
+  overflow: hidden;
+  margin-left: 20px;
+}
+
+.image-container img{
+  width: 100%;
+}
+
+.image-container p{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 2px;
+}
+
+/* locations */
+.locations {
+  display: flex;
+  flex-direction: column;
+  background: rgba(0,0,0,0.2) url("../images/locations-background.jpeg");
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 500px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.locations .content{
+  margin-bottom: 15px;
+}
+
+.locations-container{
+  display: flex;
+  justify-content: center;
+  margin-right: 40px;
+}
+
+.location-container{
+  margin-left: 40px;
+  width: 300px;
+  background-color: black;
+  text-align: center;
+  opacity: 1;
+}
+
+.location h2{
+  padding-bottom: 0px;
+}
+
+.location-container h3{
+  border-bottom: 2px solid hsl(0,0%,40%);
+  padding-bottom: 10px;
+}
+
+.contacts{
+  text-align: center;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer{
+  opacity: 1;
+}
+
+footer .content{
+  margin-left: 20px;
+}
